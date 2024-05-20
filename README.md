@@ -2,7 +2,7 @@
 This project involves the integration of AWS services, OpenFaaS, Ceph, and other tools to perform cloud-based video processing and data analysis. The primary goal is to develop a system that can handle automated video analysis tasks, such as face recognition, using serverless functions and distributed storage.
 
 ![hybridcloud image](https://github.com/maitry98/Hybrid-Cloud/assets/147111812/d39a976c-3522-43fe-b2df-e70a3d8c1e1c)
-## Project Components
+## Project Components Description
 Dockerfile:
 A multi-stage build for an OpenFaaS function with Python runtime. The final runtime image includes the required dependencies, such as ffmpeg, and copies the function code, dependencies, and handler script. The CMD instruction specifies the default command to execute when the container starts, pointing to the handler function for the OpenFaaS function.
 
